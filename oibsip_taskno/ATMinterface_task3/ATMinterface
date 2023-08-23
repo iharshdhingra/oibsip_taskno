@@ -1,0 +1,13 @@
+#############################-----ATM Interface-----#############################
+
+BankAccount Class: This class represents the user's bank account. It has methods for depositing, withdrawing, checking the balance, and displaying transaction history.
+
+ATM Class: This class handles the ATM's user interface and transaction processing. It interacts with the BankAccount class.
+
+Main Class: The entry point of the program. It initializes the user's bank account and the ATM, then presents a loop where users can choose from various options.
+    Display Options: The ATM displays options for the user, such as checking balance, depositing, withdrawing, checking transaction history, and exiting.
+    Perform Transaction: Based on the user's choice, the ATM performs the selected transaction using the methods provided in the BankAccount class
+
+Scanner Usage: The program uses the Scanner class to read user input from the console.
+
+Loop: The program runs in an infinite loop, allowing users to perform multiple transactions until they choose to exit.
